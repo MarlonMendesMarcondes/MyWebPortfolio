@@ -220,3 +220,11 @@ button:hover {
       width: 10%;
   }
 }
+@keyframes java {
+  0% {
+      width:0%; 
+  }
+  100%{
+    width: 50%;
+  }
+}
