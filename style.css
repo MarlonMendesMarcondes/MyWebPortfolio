@@ -124,6 +124,7 @@ button:hover {
   width:150px ;
   font-size: 15px;
   margin-top: 10px;
+  animation: shadowMove2 2s infinite alternate;
 }
 .skills{
   color: #ffffff;
@@ -134,6 +135,7 @@ button:hover {
   background:rgba(0,0,0,0.5)  ;
   border-radius: 9px;
   box-shadow: 2px 2px 2px #0074ED;
+  animation: shadowMove 2s infinite alternate;
 }
 
 .skills li{
@@ -219,6 +221,23 @@ button:hover {
       width: 10%;
   }
 }
+@keyframes shadowMove {
+  0% {
+    box-shadow: 2px 2px 2px 2px #debd00;
+  }
+  100% {
+    box-shadow: 2px 2px 2px 2px #0074ED;
+  }
+}
+@keyframes shadowMove2 {
+  0% {
+    box-shadow: 1px 1px 1px 1px #debd00;
+  }
+  100% {
+    box-shadow: 1px 1px 1px 1px #0074ED;
+  }
+}
+
 /* Sintax mobile*/
 @media screen and (max-width:1000px) {
   .background{
@@ -274,4 +293,5 @@ button:hover {
     margin: 2px 0 ;
     padding: 2px;
   }
+  
 }
