@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{  
@@ -14,31 +15,31 @@ body{
   overflow: hidden;
 }
 .background{
-  background:transparent 50%;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  background:url(Imagens/background.jpg);
+  background-image:url(Imagens/background.jpg);
   background-size:cover;
-  background-position: cover ;
+  background-position:cover;
   width: 100%;
   height: 100vh; 
 }
 header {
-  display:flex;
-  justify-content: space-around;
+  display:grid ;
+  grid-template-columns: 1fr 4fr auto;
+  grid-template-rows: 50px;
   max-width: 100%;
   align-items: center;
   text-align: center;
-  padding-top: 1rem ;
+  padding-top: 1% ;
 }
 .cabeçalho-link {
-  display: flex;
-  gap: 3rem;
-  font-weight: 300;
+  display:grid ;
+  grid-template-columns: repeat( 5, 20%);
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
   cursor: pointer; 
 }
 .cabeçalho-link a{
   color: #fff;
-  font-size: 1
 }
 .cabeçalho-link a:hover{
     color: #0074ED;
@@ -46,8 +47,8 @@ header {
 }
 .container-text{
   position: absolute ;
-  bottom: 200px;
-  left: 100px;
+  bottom: 50%;
+  left: 8%;
 }
 .text h3{
   color: #ffffff;
@@ -71,12 +72,11 @@ header {
   color: #ffffff;
   text-shadow: 2px 2px 2px #0074ED;
   font-size: 15px;
-  font-weight: 300px;
   margin-top: 2px;
 }
 .logo i{
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   background: transparent;
   border: 1px solid #debd00;
   color: #debd00;
@@ -97,7 +97,7 @@ button{
     color: #debd00;
     background: transparent;
     border:solid 1px #debd00;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
     font-size: 15px;
     width: 150px;
@@ -112,9 +112,8 @@ button:hover {
 }
 .redes-sociais a{
   color:#debd00;
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
-  right: 10px;
   padding: 10px;
   margin-top: 10px;
 }
@@ -128,9 +127,9 @@ button:hover {
 .skills{
   color: #ffffff;
   position: absolute ;
-  bottom: 50px;
-  right: 50px;
-  width: 350px;
+  bottom: 5%;
+  right: 5%;
+  width: 20%;
   background:rgba(0,0,0,0.5)  ;
   border-radius: 9px;
   box-shadow: 2px 2px 2px #0074ED;
@@ -149,7 +148,7 @@ button:hover {
   border:1px solid #debd00;
   overflow: hidden ;
   box-shadow: 0 2px 3px #8b7600;
-  transition: all 0.3s cubic-bezier(0,.8,.8,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .bar span{
@@ -164,11 +163,11 @@ button:hover {
 }
 .python{
   width: 45%;
-  animation: python 3s;
+  animation: java 3s;
 }
 .html{
   width: 40%;
-  animation: html 3s;
+  animation: hmtl 3s;
 }
 .css{
   width: 40%;
@@ -189,10 +188,10 @@ button:hover {
 }
 @keyframes python {
   0% {
-      width:0%;
+      width:0%; 
   }
   100%{
-    width: 45%;
+    width: 40%;
   }
 }
 @keyframes html {
