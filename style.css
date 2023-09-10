@@ -9,22 +9,15 @@
     font-family: "Poppins", sans-serif;
     
 }
-
-body{
-  overflow: hidden;
-}
 .background{
   background-image:url(Imagens/background.jpg);
   background-size:cover;
   background-position:cover;
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
 }
 header {
-  display:grid ;
-  grid-template-columns: 25% 70%;
   max-width: 100%;
-  align-items: center;
   text-align: center;
   padding-top: 1% ;
 }
@@ -33,10 +26,11 @@ header {
   justify-content:space-around;
   align-items: center;
   text-align: center;
-  font-size: 15px;
   cursor: pointer; 
 }
 .cabeçalho-link a{
+  font-size: 15px;
+  text-decoration: none;
   color: #fff;
 }
 .cabeçalho-link a:hover{
@@ -246,7 +240,6 @@ button:hover {
     height: 150vh; 
   }
   header {
-    grid-template-columns: 25% 55%;
     max-width: 100%;
     align-items: center;
     text-align: center;
@@ -257,10 +250,6 @@ button:hover {
     font-size: 11px;
   }
   .cabeçalho-link {
-    display:grid ;
-    grid-template-columns: repeat( 5, 24%);
-    align-items: center;
-    text-align: center;
     font-size: 12px;
     cursor: pointer; 
   
