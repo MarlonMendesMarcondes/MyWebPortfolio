@@ -283,6 +283,10 @@ button:hover {
     padding: 2px;
   } 
 }
+#card{
+  box-shadow: 2px 2px 2px #0074ED;
+  animation: shadowMove 2s infinite alternate;
+}
 @media screen and (max-width:800) {
   .background{
     background-size:center;
