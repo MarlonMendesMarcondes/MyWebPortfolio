@@ -154,19 +154,19 @@ button:hover {
 
 }
 .java{
-  width: 100%;
+  width: 99%;
   animation: java 3s;
 }
 .python{
-  width: 100%;
+  width: 99%;
   animation: python 3s;
 }
 .html{
-  width: 100%;
+  width: 99%;
   animation: html 3s;
 }
 .css{
-  width: 100%;
+  width: 99%;
   animation: css 3s;
 }
 .javascript{
@@ -179,7 +179,7 @@ button:hover {
       width:0%; 
   }
   100%{
-    width: 100%;
+    width: 99%;
   }
 }
 @keyframes python {
@@ -187,7 +187,7 @@ button:hover {
       width:0%; 
   }
   100%{
-    width: 100%;
+    width: 99%;
   }
 }
 @keyframes html {
@@ -195,7 +195,7 @@ button:hover {
       width:0%; 
   }
   100%{
-    width: 100%;
+    width: 99%;
   }
 }
 @keyframes css {
@@ -203,7 +203,7 @@ button:hover {
       width:0%; 
   }
   100%{
-    width: 100%;
+    width: 99%;
   }
 }
 @keyframes javascript {
